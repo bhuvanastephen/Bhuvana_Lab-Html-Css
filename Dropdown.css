@@ -1,0 +1,79 @@
+header{
+    position: relative;
+    background-color: red;
+    width: 100%;
+}
+h1{
+    text-align: right;
+    margin: 0%;
+    padding-right: 8%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.navigate{
+    position: relative;
+    margin-top: 0%;
+    width: 100%;
+    background-color: grey;
+}
+.menu{
+    margin-top: 0;
+    height: auto;
+    top: 0%;
+}
+.menu .menulist .dropdown .dropdownlist{
+    list-style: none;
+}
+.menu .menulist{
+    display: inline-block;
+    text-align:center;
+    width: 10%;
+}
+.menu .menulist:nth-child(2):hover .dropdown{
+    display: block;
+    text-align:center;
+
+}
+.menu .menulist:nth-child(2):hover .dropdownlist .menulistAnchor{
+    background-color: azure;
+ }
+a{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 150px;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+ .dropdown li .dropdownlistAnchor{
+    color: blue;
+    background-color: azure;
+} 
+.dropdown{
+    display: none;
+    position: absolute;
+    width: auto;
+    background-color:transparent;
+    padding: 0;
+  }
+li{
+    padding: 5px;
+    padding-right: 0;
+    width: 150px;
+    vertical-align: middle;
+    border: none;
+}
+.menu .menulist:hover .menulistAnchor{
+    background-color: black;
+}
+.dropdownlist:hover .dropdownlistAnchor{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
